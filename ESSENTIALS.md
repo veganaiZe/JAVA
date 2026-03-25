@@ -3,13 +3,11 @@
 
 _A quick reference for Java fundamentals._
 
-
 ---
 
 
 🔑 Keywords
 -----------
-
 |          |            |           |           |
 |:---------|:-----------|:----------|:----------|
 | abstract | else       | int       | strictfp
@@ -27,13 +25,11 @@ _A quick reference for Java fundamentals._
 | do       | instanceof | static    | while
 | double
 
-
 ---
 
 
 🧩 Data Types
 -------------
-
 | Class      | Primitive |   |
 |------------|-----------|---|
 | [Boolean](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html)    | boolean   | true / false
@@ -89,7 +85,6 @@ _A quick reference for Java fundamentals._
 
 
 ### [Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)
-
 ```java
 /**
  * java.lang.Number -> java.lang.Integer
@@ -112,7 +107,6 @@ new Integer(string)  // `Integer` wrapped version of `Integer.parseInt(java.lang
 
 
 ### [Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)
-
 ```java
 /**
  * java.lang.Object
@@ -136,7 +130,6 @@ new Object();
 
 
 ### [System](https://docs.oracle.com/javase/8/docs/api/java/lang/System.html)
-
 ```java
 /**
  * java.lang.System  // can't be instantiated (private constructor); can't be inherited (final); all static methods
@@ -152,13 +145,11 @@ new Object();
 .nanoTime()  // returns long; running jvm's current nanoseconds; arbitrary origin; only for measuring elapsed times; 1.5+
 ```
 
-
 ---
 
 
 📦 [The Collections Framework](https://docs.oracle.com/javase/8/docs/technotes/guides/collections/index.html) <sup>1.2</sup>
 ------------------------------
-
 | Interface      | Hash Table         | Resizable Array          | Balanced Tree      | Linked List              | Hash Table + Linked List | Other
 |----------------|--------------------|--------------------------|--------------------|--------------------------|--------------------------|------
 | [Set][Set]     | [HashSet][HashSet] |                          | [TreeSet][TreeSet] |                          | [LinkedHashSet][LinkedHashSet] <sup>1.4</sup>
@@ -166,6 +157,7 @@ new Object();
 | [Queue][Queue] <sup>5</sup> |       | [ArrayDeque][ArrayDeque] <sup>6</sup>|        | [LinkedList][LinkedList] |                          | [PriorityQueue][PriorityQueue] <sup>5</sup>
 | [Deque][Deque] <sup>6</sup> |       | [ArrayDeque][ArrayDeque] <sup>6</sup> |       | [LinkedList][LinkedList] |
 | [Map](#map-12)  | [HashMap][HashMap] |                          | [TreeMap][TreeMap] |                          | [LinkedHashMap](#linkedhashmap-14) <sup>1.4</sup>
+
 
 ### [Collection](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html) <sup>1.2</sup>
 ```java
@@ -203,7 +195,6 @@ new Object();
 
 
 ### [Arrays](https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html) <sup>1.2</sup>
-
 ```java
 /** java.util.Arrays */
 
@@ -225,7 +216,6 @@ new Object();
 
 
 ### [LinkedHashMap](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedHashMap.html) <sup>1.4</sup>
-
 ```java
 /**
  * java.util.LinkedHashMap<K,V>
@@ -245,7 +235,6 @@ LinkedHashMap(Map<? extends K,? extends V> map)
 
 
 ### [Map](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html) <sup>1.2</sup>
-
 ```java
 /**
  * java.util.Map
@@ -268,6 +257,7 @@ LinkedHashMap(Map<? extends K,? extends V> map)
 .size()             // returns int; returns Integer.MAX_VALUE if more than Integer.MAX_VALUE elements
 .values()           // returns Collection<V> view; use only iterator's remove/retainAll/clear operations
 ```
+
 
 ### [Math](https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html)
 
@@ -327,13 +317,11 @@ LinkedHashMap(Map<? extends K,? extends V> map)
 - [`substring`](https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuilder.html#substring-int-int-)`(int start, int end) : String`
 </details>
 
-
 ---
 
 
 ⌨️ Command Line
 ---------------
-
 ```
 javac -Xlint:unchecked <source file(s)>
 java -ea MainClassName
@@ -344,7 +332,6 @@ java -ea MainClassName
 ------------
 
 ### [Assertions](https://docs.oracle.com/javase/8/docs/technotes/guides/language/assert.html) <sup>1.4</sup>
-
 ```java
 java -ea
 java -enableassertions
@@ -358,7 +345,6 @@ static {
     if (! assertsEnabled) { throw new RuntimeException("\n\n ENABLE ASSERTIONS WITH -ea \n\n"); }
 } 
 ```
-
 
 ---
 
