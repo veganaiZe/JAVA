@@ -156,17 +156,18 @@ new Object();
 ---
 
 
-📦 [Collections](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html) <sup>1.2</sup>
-----------------
+📦 [The Collections Framework](https://docs.oracle.com/javase/8/docs/technotes/guides/collections/index.html) <sup>1.2</sup>
+------------------------------
 
 | Interface      | Hash Table         | Resizable Array          | Balanced Tree      | Linked List              | Hash Table + Linked List | Other
 |----------------|--------------------|--------------------------|--------------------|--------------------------|--------------------------|------
 | [Set][Set]     | [HashSet][HashSet] |                          | [TreeSet][TreeSet] |                          | [LinkedHashSet][LinkedHashSet] <sup>1.4</sup>
-| [List][List]   |                    | [ArrayList](#arraylist-12) |                   | [LinkedList][LinkedList] |
+| [List][List]   |                    | [ArrayList](#arraylist-12) <sup>1.2</sup> |   | [LinkedList][LinkedList] |
 | [Queue][Queue] <sup>5</sup> |       | [ArrayDeque][ArrayDeque] <sup>6</sup>|        | [LinkedList][LinkedList] |                          | [PriorityQueue][PriorityQueue] <sup>5</sup>
 | [Deque][Deque] <sup>6</sup> |       | [ArrayDeque][ArrayDeque] <sup>6</sup> |       | [LinkedList][LinkedList] |
-| [Map](#map-12)  | [HashMap][HashMap] |                          | [TreeMap][TreeMap] |                          | [LinkedHashMap][LinkedHashMap] <sup>1.4</sup>
+| [Map](#map-12)  | [HashMap][HashMap] |                          | [TreeMap][TreeMap] |                          | [LinkedHashMap](#linkedhashmap-14) <sup>1.4</sup>
 
+### [Collection](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html) <sup>1.2</sup>
 ```java
 /**
  * java.util.Collection
@@ -221,6 +222,26 @@ new Object();
 ### [File](https://docs.oracle.com/javase/8/docs/api/java/io/File.html)
 
 - [`length`](https://docs.oracle.com/javase/8/docs/api/java/io/File.html#length--)`() : long`
+
+
+### [LinkedHashMap](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedHashMap.html) <sup>1.4</sup>
+
+```java
+/**
+ * java.util.LinkedHashMap<K,V>
+ *
+ * Insertion order not affected if key re-inserted
+ * Operations on collection-views do not generate entry accesses
+ * The compute*, get*, merge, put* methods generate entry accesses
+ * The replace* methods only generate entry access if value's replaced
+ */
+
+LinkedHashMap([int initialCapacity[, float loadFactor[, boolean accessOrder]]])
+    // defaults: initialCapcity=16; loadFactor=0.75; accessOrder=false (insertion-ordered)
+    // accessOrder: `true` for access-ordered, `false` for insertion-ordered
+LinkedHashMap(Map<? extends K,? extends V> map)
+    // initial capacity sufficient to hold mappings
+```
 
 
 ### [Map](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html) <sup>1.2</sup>
