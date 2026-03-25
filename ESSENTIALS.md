@@ -153,7 +153,7 @@ new Object();
 | Interface      | Hash Table         | Resizable Array          | Balanced Tree      | Linked List              | Hash Table + Linked List | Other
 |----------------|--------------------|--------------------------|--------------------|--------------------------|--------------------------|------
 | [Set][Set]     | [HashSet][HashSet] |                          | [TreeSet][TreeSet] |                          | [LinkedHashSet][LinkedHashSet] <sup>1.4</sup>
-| [List][List]   |                    | [ArrayList](#arraylist-12) <sup>1.2</sup> |   | [LinkedList][LinkedList] |
+| [List][List]   |                    | [ArrayList](#arraylist-12) |                  | [LinkedList][LinkedList] |
 | [Queue][Queue] <sup>5</sup> |       | [ArrayDeque][ArrayDeque] <sup>6</sup>|        | [LinkedList][LinkedList] |                          | [PriorityQueue][PriorityQueue] <sup>5</sup>
 | [Deque][Deque] <sup>6</sup> |       | [ArrayDeque][ArrayDeque] <sup>6</sup> |       | [LinkedList][LinkedList] |
 | [Map](#map-12)  | [HashMap][HashMap] |                          | [TreeMap][TreeMap] |                          | [LinkedHashMap](#linkedhashmap-14) <sup>1.4</sup>
