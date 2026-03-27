@@ -373,12 +373,17 @@ static {
 ```java
 /** Same effect as assert keyword without requiring a command-line argument. */
 public static void
+assertThat(boolean assertion) { assertThat(assertion, ""); }
+
+public static void
 assertThat(boolean assertion, String detailMessage) {
-    AssertionError assertionError = new AssertionError(detailMessage);
-    StackTraceElement[] stackTrace = assertionError.getStackTrace();
-    System.arraycopy(stackTrace, 1, stackTrace, 0, stackTrace.length-1);
-    assertionError.setStackTrace(stackTrace);
-    if (! assertion) throw assertionError;
+    if (! assertion) {
+        AssertionError assertionError = new AssertionError(detailMessage);
+        StackTraceElement[] stackTrace = assertionError.getStackTrace();
+        System.arraycopy(stackTrace, 1, stackTrace, 0, stackTrace.length-1);
+        assertionError.setStackTrace(stackTrace);
+        throw assertionError;
+    }
 }
 ```
 
