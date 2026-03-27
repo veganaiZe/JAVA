@@ -41,6 +41,10 @@ _A quick reference for Java fundamentals._
 | [Float](https://docs.oracle.com/javase/8/docs/api/java/lang/Float.html)      | float     | 32-bit signed (1.4E-45 - 3.4028235E38)
 | [Double](https://docs.oracle.com/javase/8/docs/api/java/lang/Double.html)     | double    | 64-bit signed (4.9E-324 - 1.7976931348623157E308)
 
+Wrapper classes vs. primitives:
+* `==` compares _identities_ on wrapper classes; compares _values_ on primitives.
+* Wrapper classes can be `null`; causes a `NullPointerException` when autounboxed.
+* Auto(un)boxing has performance costs, especially in inner loops.
 
 ⚙️ Classes
 ----------
