@@ -219,6 +219,19 @@ new Object();
 - [`length`](https://docs.oracle.com/javase/8/docs/api/java/io/File.html#length--)`() : long`
 
 
+### [Iterator](https://docs.oracle.com/javase/8/docs/api/java/util/Iterator.html) <sup>1.2</sup>
+```java
+/**
+ * java.util.Iterator<E>
+ */
+
+.hasNext()  // returns true if there's more elements
+.next()     // returns next element
+.remove()   // removes last element returned by this iterator from underlying collection; optional operation
+.forEachRemaining(Consumer<? super E> action)  // 1.8+
+```
+
+
 ### [LinkedHashMap](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedHashMap.html) <sup>1.4</sup>
 ```java
 /**
