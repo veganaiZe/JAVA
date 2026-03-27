@@ -254,9 +254,7 @@ LinkedHashMap(Map<? extends K,? extends V> map)
 ### [Map](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html) <sup>1.2</sup>
 ```java
 /**
- * java.util.Map
- *
- * Map.Entry<K,V>   // static interface
+ * java.util.Map<K,V>
  */
 
 .clear()            // empties map; optional operation; throws UnsupportedOperationException
@@ -273,6 +271,13 @@ LinkedHashMap(Map<? extends K,? extends V> map)
 .remove(key)        // returns value or null (value may also be null)
 .size()             // returns int; returns Integer.MAX_VALUE if more than Integer.MAX_VALUE elements
 .values()           // returns Collection<V> view; use only iterator's remove/retainAll/clear operations
+
+.Entry<K,V>  // static interface
+  .equals(object)   // returns true if object is map entry representing same mapping
+  .getKey()         // returns key
+  .getValue()       // returns value
+  .hashCode()       // returns hashcode as int
+  .setValue(value)  // replaces value; optional operation
 ```
 
 
