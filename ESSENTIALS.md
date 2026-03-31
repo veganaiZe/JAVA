@@ -17,7 +17,7 @@ _A quick reference for Java fundamentals._
 | byte     | [final](https://en.wikipedia.org/wiki/Final_(Java)) | new | this
 | case     | finally    | null      | throw
 | catch    | float      | package   | throws
-| char     | for        | private   | transient
+| char     | [for](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/for.html) | private   | transient
 | class    | goto       | protected | true
 | const    | if         | public    | try
 | continue | implements | return    | void
