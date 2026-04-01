@@ -337,8 +337,8 @@ LinkedHashMap(Map<? extends K,? extends V> map)
  * javafx.util.Pair<K,V>
  *
  * A convenience class to represent name-value pairs.
- * Avoid actually using this class, since JavaFX was only bundled with
- * Java 7u6 through Java 10, and use it only as a reference implementation.
+ * Avoid actually using this class, since JavaFX is non-core,
+ * and use it only as a reference implementation.
  */
 
 Pair(K key, V value)
