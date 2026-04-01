@@ -331,6 +331,25 @@ LinkedHashMap(Map<? extends K,? extends V> map)
 ```
 
 
+### [Pair](https://docs.oracle.com/javase/8/javafx/api/javafx/util/Pair.html)
+```java
+/**
+ * javafx.util.Pair<K,V>
+ *
+ * A convenience class to represent name-value pairs.
+ * Avoid actually using this class, since JavaFX was only bundled with
+ * Java 7u6 through Java 10, and use it only as a reference implementation.
+ */
+
+Pair(K key, V value)
+.getKey()        // return key as K
+.getValue()      // return value as V
+.toString()      // return concise, informative, human readable representation as String
+.hashCode()      // return hashcode as int calculated using key & value
+.equals(object)  // return false if not a Pair or is null; equal if both key & value are equal
+```
+
+
 ### [Stack](https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html)
 
 - [`empty`](https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html#empty--)`() : boolean`
