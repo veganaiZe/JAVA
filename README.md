@@ -486,6 +486,8 @@
 
   - _Class File Version: 69_
   - [_Features_](https://openjdk.org/projects/jdk/25/)
+    - [_aot command-line ergonomics_](https://openjdk.org/jeps/514)
+    - [_aot method profiling_](https://openjdk.org/jeps/515)
     - [_remove 32-bit x86 port_](https://openjdk.org/jeps/503)
     - [_scoped values_](https://openjdk.org/jeps/506)
   - [_Language Spec_](https://docs.oracle.com/javase/specs/jls/se25/html/index.html) _- 2025_
