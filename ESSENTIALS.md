@@ -216,7 +216,7 @@ new Object();
 ### [Collection](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html) <sup>1.2</sup>
 ```java
 /**
- * java.util.Collection
+ * java.util.Collection<E>
  */
 
 .add(element)  // returns boolean; optional operation;
