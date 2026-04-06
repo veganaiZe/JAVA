@@ -42,7 +42,7 @@ _A quick reference for Java fundamentals._
 | const    | if         | public    | try
 | continue | implements | return    | void
 | default  | import     | short     | volatile
-| do       | [instanceof](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/op2.html) | static    | while
+| do       | [instanceof](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/op2.html) | static    | [while](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html)
 | double
 
 ---
