@@ -161,6 +161,8 @@
   - _Class File Version: 45_
   - [_API Documentation_](http://web.archive.org/web/19980215011741/http://java.sun.com/products/jdk/1.0.2/api/)
   - [_The Java Language Specification 1.0_](http://titanium.cs.berkeley.edu/doc/java-langspec-1.0.pdf) _- 1996_
+  - _Features_
+    - [unicode 1.1.5](https://www.unicode.org/versions/Unicode1.1.0/)
 </details>
 
 
@@ -170,6 +172,8 @@
   - _Class File Version: 45.3_
   - [_API Documentation_](http://web.archive.org/web/19980214234554/http://java.sun.com/products/jdk/1.1/docs/api/packages.html) [[_.hlp_](https://javadoc.allimant.org/dist/jdk118.zip)]
   - [_The Java Language Specification 1.0_](http://titanium.cs.berkeley.edu/doc/java-langspec-1.0.pdf) _- 1996_
+  - _Features_
+    - [unicode 2.0](https://www.unicode.org/versions/Unicode2.0.0/)
 </details>
 
 
@@ -179,6 +183,8 @@
   - _Class File Version: 46_
   - [_API Documentation_](https://javaalmanac.io/jdk/1.2/api/index.html)
   - [_The Java Language Specification 1.0_](http://titanium.cs.berkeley.edu/doc/java-langspec-1.0.pdf) _- 1996_
+  - _Features_
+    - [unicode 2.1](https://www.unicode.org/versions/Unicode2.1.0/)
 </details>
 
 
@@ -189,6 +195,8 @@
   - _Minimum Target Version: 1.1_
   - [_API Documentation_](https://javaalmanac.io/jdk/1.3/api/index.html)
   - [_The Java Language Specification 2.0_](http://titanium.cs.berkeley.edu/doc/java-langspec-2.0.pdf) _- 2000_
+  - _Features_
+    - [unicode 2.1](https://www.unicode.org/versions/Unicode2.1.0/)
 </details>
 
 
@@ -200,6 +208,8 @@
   - _Minimum Target Version: 1.1_
   - [_API Documentation_](https://javaalmanac.io/jdk/1.4/api/index.html)
   - [_The Java Language Specification 2.0_](http://titanium.cs.berkeley.edu/doc/java-langspec-2.0.pdf) _- 2000_
+  - _Features_
+    - [unicode 3.0](https://www.unicode.org/versions/Unicode3.0.0/)
 </details>
 
 
@@ -212,6 +222,8 @@
   - [_API Documentation_](https://web.mit.edu/java_v1.5.0_22/distrib/share/docs/index.html) ([_.chm_](https://javadoc.allimant.org/dist/jdk150.zip))
   - [_Java 1.5 grammar (ANTLR v3)_](http://web.archive.org/web/20120904064302id_/https://www.antlr.org/grammar/1152141644268/Java.g)
   - [_Java Language Specification 3_](https://docs.oracle.com/javase/specs/jls/se6/jls3.pdf) _- 2005_
+  - _Features_
+    - [unicode 4.0](https://www.unicode.org/versions/Unicode4.0.0/)
 </details>
 
 
@@ -227,6 +239,7 @@
     - [jar and zip enhancements](https://docs.oracle.com/javase/6/docs/technotes/guides/jar/changes6.html)
     - [javafx 2.2 compatible](https://www.oracle.com/java/technologies/javafx2-archive-downloads.html)
     - [threeten-backport (date-time) compatible](https://www.threeten.org/threetenbp/)
+    - [unicode 4.0](https://www.unicode.org/versions/Unicode4.0.0/)
 </details>
 
 <details>
@@ -398,6 +411,7 @@
   - [_Features_](https://openjdk.org/projects/jdk/17/) _([release notes](https://www.oracle.com/java/technologies/javase/17-relnote-issues.html))_
     - [removed graal aot and jit compiler (retain JVMCI support for external compilers)](https://openjdk.org/jeps/410)
     - [sealed classes](https://openjdk.org/jeps/409)
+    - [unicode 13](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Character.html)
   - [_Language Spec_](https://docs.oracle.com/javase/specs/jls/se17/html/index.html) _- 2021_
   - [_Download_](https://github.com/adoptium/temurin17-binaries/releases)
 </details>
@@ -441,6 +455,7 @@
     - [unnamed classes / instance main methods](https://openjdk.org/jeps/445) (preview)
     - [virtual threads](https://openjdk.org/jeps/444)
     - [sequenced collections](https://openjdk.org/jeps/431)
+    - [unicode 15](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Character.html)
 - [_Language Spec_](https://docs.oracle.com/javase/specs/jls/se21/html/index.html) _- 2023_
 - [_JDK Tools_](https://docs.oracle.com/en/java/javase/21/docs/specs/man/index.html)
 - [_Download_](https://jdk.java.net/21/)
@@ -490,5 +505,6 @@
     - [_aot method profiling_](https://openjdk.org/jeps/515)
     - [_remove 32-bit x86 port_](https://openjdk.org/jeps/503)
     - [_scoped values_](https://openjdk.org/jeps/506)
+    - [unicode 16](https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Character.html)
   - [_Language Spec_](https://docs.oracle.com/javase/specs/jls/se25/html/index.html) _- 2025_
 </details>
