@@ -228,7 +228,7 @@
 
 
 <details>
-<summary>JDK 6 </summary>
+<summary>JDK 6</summary>
 
   - _Class File Version: 50_
   - [_API Documentation_](https://docs.oracle.com/javase/6/docs/api/) ([_.chm_](https://javadoc.allimant.org/dist/j2se6.zip))
@@ -240,6 +240,7 @@
     - [javafx 2.2 compatible](https://www.oracle.com/java/technologies/javafx2-archive-downloads.html)
     - [threeten-backport (date-time) compatible](https://www.threeten.org/threetenbp/)
     - [unicode 4.0](https://www.unicode.org/versions/Unicode4.0.0/)
+    - [`com.sun.net.httpserver`](https://docs.oracle.com/javase/8/docs/jre/api/net/httpserver/spec/com/sun/net/httpserver/package-summary.html) ([okay to use](https://dev.to/thokuest/is-it-okay-to-use-comsunnethttpserverhttpserver-24il))
 </details>
 
 <details>
