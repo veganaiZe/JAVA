@@ -241,6 +241,7 @@
     - [threeten-backport (date-time) compatible](https://www.threeten.org/threetenbp/)
     - [unicode 4.0](https://www.unicode.org/versions/Unicode4.0.0/)
     - [`com.sun.net.httpserver`](https://docs.oracle.com/javase/8/docs/jre/api/net/httpserver/spec/com/sun/net/httpserver/package-summary.html) ([okay to use](https://dev.to/thokuest/is-it-okay-to-use-comsunnethttpserverhttpserver-24il))
+    - [escape analysis](https://docs.oracle.com/javase/7/docs/technotes/guides/vm/performance-enhancements-7.html#escapeAnalysis) (6u23)
 </details>
 
 <details>
