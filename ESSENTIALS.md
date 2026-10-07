@@ -168,6 +168,7 @@ new Object();
 
 ### [String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)
 
+- [`endsWith`](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#endsWith-java.lang.String-)`(String s) : boolean`
 - [`equals`](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#equals-java.lang.Object-)`(Object o) : boolean`
 <details><summary><code>indexOf(..)</code></summary>
   
@@ -179,6 +180,7 @@ new Object();
 
 - [`length`](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#length--)`() : int`
 - [`split`](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#split-java.lang.String-int-)`(String regex[, int limit]) : String[]` <sup>v1.4+</sup>
+- [`startsWith`](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#startsWith-java.lang.String-int-)`(String s[, int offset]) : boolean`
 - [`substring`](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#substring-int-)`(int beginAt[, int endBefore]) : String`
 
 
