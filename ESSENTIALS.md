@@ -287,8 +287,47 @@ new Object();
 
 
 ### [File](https://docs.oracle.com/javase/8/docs/api/java/io/File.html)
+```java
+/**
+ * java.io.File
+ *
+ * Consider using the NIO.2 API (java.nio.file: Files, Path, Paths) instead, in Java 7+
+ *
+ * File.pathSeparator  // platform path separator as a string; ":" on Unix; ";" on Windows
+ * File.pathSeparatorChar  // platform path separator as a char; ':' on Unix; ';' on Windows
+ * File.separator      // platform name separator as a string; "/" on Unix; "\\" on Windows
+ * File.separatorChar  // platform name separator as a char; '/' on Unix; '\\' on Windows
+ */
 
-- [`length`](https://docs.oracle.com/javase/8/docs/api/java/io/File.html#length--)`() : long`
+new File({String|URI})
+
+.canExecute()  // returns boolean
+.canRead()     // returns boolean
+.canWrite()    // returns boolean
+.compareTo(File)  // returns int; lexicographically compares pathnames; 1.2+
+.createNewFile()  // returns true if file didn't exist & was created; throws IOException; 1.2+
+.delete()      // returns boolean; delete file or dir
+.exists()      // returns true if file or dir exists
+.getCanonicalPath()  // returns String; throws IOException; 1.1+
+.getName()     // returns String; last file or dir name in pathname
+.getParent()   // returns String or null; pathname's parent dir
+.getParentFile()  // returns File or null; pathname's parent dir
+.isDirectory()    // returns boolean
+.isFile()         // returns boolean
+.isHidden()       // returns boolean; begins with '.' on Unix; 1.2+
+.lastModified()   // returns long; milliseconds since epoch (00:00 GMT,Jan 1,1970); 0L if doesn't exist or io error
+.length()         // returns long; byte size; 0L if doesn't exist
+.list()           // returns String[]; file & dir names in this dir
+.listFiles()      // returns File[], empty, or null if not a dir; files & dirs in this dir; 1.2+
+.listRoots()      // returns File[], empty, or null; available filesystem roots; 1.2+
+.mkdir()          // returns true if dir created
+.mkdirs()         // returns true if dir & all necessary parent dirs created
+.renameTo(File)   // returns true if renaming succeeded
+.setLastModified(long)  // returns boolean; time in milliseconds since epoch (00:00 GMT,Jan 1,1970); 1.2+
+.setReadOnly()    // returns boolean; 1.2+
+.toPath()         // returns java.nio.file.Path; 1.7+
+.toString()       // returns same String as getPath()
+```
 
 
 ### [Iterator](https://docs.oracle.com/javase/8/docs/api/java/util/Iterator.html) <sup>1.2</sup>
