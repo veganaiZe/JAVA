@@ -1,7 +1,7 @@
 # 🪟 SWING
 
 
-### [SwingUtilties](https://docs.oracle.com/javase/8/docs/api/javax/swing/SwingUtilities.html)
+### [SwingUtilities](https://docs.oracle.com/javase/8/docs/api/javax/swing/SwingUtilities.html)
 ```java
 /**
  * javax.swing.SwingUtilties
