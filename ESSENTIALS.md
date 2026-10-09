@@ -167,42 +167,36 @@ new Object();
 
 
 ### [String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)
+```java
+new String(array[, offset, count])
+new String(StringBuffer)
+new String(StringBuilder)
 
-- [`endsWith`](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#endsWith-java.lang.String-)`(String s) : boolean`
-- [`equals`](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#equals-java.lang.Object-)`(Object o) : boolean`
-<details><summary><code>indexOf(..)</code></summary>
-  
-- [`indexOf`](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#indexOf-int-)`(int character) : int`
-- [`indexOf`](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#indexOf-int-int-)`(int character, int fromIndex) : int`
-- [`indexOf`](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#indexOf-java.lang.String-)`(String string) : int`
-- [`indexOf`](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#indexOf-java.lang.String-int-)`(String string, int fromIndex) : int`
-</details>
-
-- [`length`](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#length--)`() : int`
-- [`split`](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#split-java.lang.String-int-)`(String regex[, int limit]) : String[]` <sup>v1.4+</sup>
-- [`startsWith`](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#startsWith-java.lang.String-int-)`(String s[, int offset]) : boolean`
-- [`substring`](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#substring-int-)`(int beginAt[, int endBefore]) : String`
+.contains(CharSequence)  // returns boolean; 1.5+
+.endsWith(String)        // returns boolean
+.equals(Object)          // returns boolean
+.indexOf({int ch | String}[, fromIndex])      // returns int
+.lastIndexOf({int ch | String}[, fromIndex])  // returns int
+.length()  // returns int
+.split(String regex[, int limit])       // returns String[]; 1.4+
+.startsWith(String[, offset])           // returns boolean
+.substring(int start[, int endBefore])  // returns String
+```
 
 
 ### [StringBuilder](https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuilder.html) <sup>5</sup>
+```java
+new StringBuilder([{capacity | CharSequence}])
 
-- [`append`](https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuilder.html#append-java.lang.Object-)`(..) : StringBuilder`
-- [`charAt`](https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuilder.html#charAt-int-)`(int index) : char`
-- [`delete`](https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuilder.html#delete-int-int-)`(int start, int end) : StringBuilder`
-<details><summary><code>indexOf(..)</code></summary>
-  
-- [`indexOf`](https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuilder.html#indexOf-java.lang.String-)`(String str) : int`
-- [`indexOf`](https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuilder.html#indexOf-java.lang.String-int-)`(String str, int fromIndex) : int`
-</details>
-
-- [`insert`](https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuilder.html#insert-int-char:A-int-int-)`(..) : StringBuilder`
-- [`length`](https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuilder.html#length--)`() : int`
-- [`reverse`](https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuilder.html#reverse--)`() : StringBuilder`
-<details><summary><code>substring(..)</code></summary>
-
-- [`substring`](https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuilder.html#substring-int-)`(int start) : String`
-- [`substring`](https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuilder.html#substring-int-int-)`(int start, int end) : String`
-</details>
+.append({Object | primitive})  // returns StringBuilder; appends String.valueOf()
+.charAt(int index)             // returns char
+.delete(int start, int end)    // returns StringBuilder
+.indexOf(String str[, int fromIndex])   // returns int
+.insert(offset, {Object | primitive}})  // returns StringBuilder; inserts String.valueOf()
+.length()    // returns int
+.reverse()   // returns StringBuilder
+.substring(int start[, int endBefore])  // returns String
+```
 
 
 ### [System](https://docs.oracle.com/javase/8/docs/api/java/lang/System.html)
@@ -218,7 +212,9 @@ new Object();
 .arraycopy(src_array, src_index, dest_array, dest_index, length)  // throws IndexOutOfBoundsException, ArrayStoreException, NullPointerException
 .currentTimeMillis()  // returns long; current time as milliseconds since midnight, January 1, 1970 UTC
 .exit(status)  // terminates current jvm; returns status to os; throws SecurityException; same as `Runtime.getRuntime().exit(n)`
-.nanoTime()  // returns long; running jvm's current nanoseconds; arbitrary origin; only for measuring elapsed times; 1.5+
+.getProperty(String key[, String default])  // returns default if there's no property
+.nanoTime()    // returns long; running jvm's current nanoseconds; arbitrary origin; only for measuring elapsed times; 1.5+
+.setProperty(String key, String value)      // returns String with previous value or null
 ```
 
 ---
