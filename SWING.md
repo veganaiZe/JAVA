@@ -1,4 +1,25 @@
-# 🪟 SWING
+# 🪟 [SWING](https://docs.oracle.com/javase/8/docs/technotes/guides/swing/index.html)
+
+
+### [JFrame](https://docs.oracle.com/javase/8/docs/api/javax/swing/JFrame.html)
+```java
+/**
+ * javax.swing.JFrame
+ *
+ * Top-level container which can optionally have a menu bar (outside of its content pane).
+ */
+
+new JFrame([String title][, GraphicsConfiguration])
+
+.add(Component[, constraints][, index])
+.pack()  // sizes Window to fit subcomponents and enlarges it to meet .setMinimumSize()
+.setDefaultCloseOperation(int)  // action when user closes frame; EXIT_ON_CLOSE, DISPOSE_ON_CLOSE, etc.
+.setIconImage(Image)            // frame.setIconImage(new ImageIcon("icon.png").getImage());
+.setJMenuBar(JMenuBar)
+.setLocationRelativeTo(Component)  // Centers frame on screen if null
+.setResizable(boolean)
+.setSize(width, height)
+```
 
 
 ### [SwingUtilities](https://docs.oracle.com/javase/8/docs/api/javax/swing/SwingUtilities.html)
