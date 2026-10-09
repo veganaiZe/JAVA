@@ -66,6 +66,7 @@ Wrapper classes vs. primitives:
 * Wrapper classes can be `null`; causes a `NullPointerException` when autounboxed.
 * Auto(un)boxing has performance costs, especially in inner loops.
 
+
 ⚙️ Classes
 ----------
 
@@ -216,6 +217,25 @@ new StringBuilder([{capacity | CharSequence}])
 .nanoTime()    // returns long; running jvm's current nanoseconds; arbitrary origin; only for measuring elapsed times; 1.5+
 .setProperty(String key, String value)      // returns String with previous value or null
 ```
+
+
+### [System Properties](https://docs.oracle.com/en/java/javase/17/docs/api/system-properties.html)
+| Key               | Details
+|-------------------|--------
+| "file.separator"  | File path separator; "/" on UNIX; "\\" on Windows
+| "java.class.path" | Path to locate class directories & JAR archives; Elements separated with "path.separator"
+| "java.home"       | JRE installation directory
+| "java.vendor"     | JRE vendor name
+| "java.vendor.url" | JRE vendor URL
+| "java.version"    | JRE version number
+| "line.separator"  | OS-specific line separator
+| "os.arch"         |
+| "os.name"         |
+| "os.version"      |
+| "path.separator"  | OS-specific path separator; Used in "java.class.path"
+| "user.dir"        | User working directory
+| "user.home"       | User home directory
+| "user.name"       | User account name
 
 ---
 
