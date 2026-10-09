@@ -4,7 +4,7 @@
 ### [SwingUtilities](https://docs.oracle.com/javase/8/docs/api/javax/swing/SwingUtilities.html)
 ```java
 /**
- * javax.swing.SwingUtilties
+ * javax.swing.SwingUtilities
  */
 
 .invokeLater(Runnable)    // asynchronously executes Runnable on awt event dispatching thread
