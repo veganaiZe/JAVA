@@ -351,6 +351,7 @@
     - [unicode 10](https://openjdk.org/jeps/327)
     - [removed javafx modules](https://www.oracle.com/docs/tech/java/javaclientroadmapupdate2018mar.pdf)
     - [removed java web start (oracle)](https://www.oracle.com/technetwork/java/javase/javaclientroadmapupdate2018mar-4414431.pdf)
+    - [removed java ee & corba modules](https://openjdk.org/jeps/320) (_affects android sdkmanager_)
   - [_Language Spec_](https://docs.oracle.com/javase/specs/jls/se11/html/index.html) _- 2018_
 </details>
 
