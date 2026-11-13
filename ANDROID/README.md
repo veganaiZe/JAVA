@@ -19,7 +19,7 @@
 
 * _Online_
     * [Android 1.6 - Donut - API 4](https://minimum-viable-product.github.io/donut-docs/index.html)
-    * [Android 2.3.3 - Gingerbread - API 10](http://web.archive.org/web/20110221191816/http://developer.android.com/guide/index.html)
+    * [Android 2.3.3 - Gingerbread - API 10](https://web.archive.org/web/20110221191816/http://developer.android.com/guide/index.html)
     * [Android 4.0 - Ice Cream Sandwich - API 14](https://minimum-viable-product.github.io/ics-docs/)
     * [Android 4.2 - Jelly Bean - API 17](https://stuff.mit.edu/afs/sipb/project/android/docs/design/index.html)
     * [Android 4.4 - Kitkat - API 19](https://minimum-viable-product.github.io/kitkat-docs/training/index.html)
