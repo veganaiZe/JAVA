@@ -5,10 +5,10 @@
 
 * [Android-x86](https://www.android-x86.org/) 💿
     - _Download_
-        - [Android-x86 5.1 Lollipop](https://sourceforge.net/projects/android-x86/files/Release%205.1/android-x86-5.1-rc1.iso/download)
-        - [Android-x86 4.4 Kitkat](https://sourceforge.net/projects/android-x86/files/Release%204.4/android-x86-4.4-r5.iso/download)
-        - [Android-x86 2.2 Froyo](https://sourceforge.net/projects/android-x86/files/Release%202.2/android-x86-2.2-generic.iso/download)
-        - [Android-x86 1.6 Donut](https://sourceforge.net/projects/android-x86/files/Release%201.6-r2/android-x86-1.6-r2.iso/download)
+        - [Android-x86 5.1 Lollipop](https://sourceforge.net/projects/android-x86/files/Release%205.1/android-x86-5.1-rc1.iso/download) | [![yt]][lollipop]
+        - [Android-x86 4.4 Kitkat](https://sourceforge.net/projects/android-x86/files/Release%204.4/android-x86-4.4-r5.iso/download) | [![yt]][kitkat]
+        - [Android-x86 2.2 Froyo](https://sourceforge.net/projects/android-x86/files/Release%202.2/android-x86-2.2-generic.iso/download) | [![yt]][froyo]
+        - [Android-x86 1.6 Donut](https://sourceforge.net/projects/android-x86/files/Release%201.6-r2/android-x86-1.6-r2.iso/download) | [![yt]][donut]
     - _HowTo_
         - [Debug Android-x86](https://www.android-x86.org/documentation/debug.html)
         - [Run Android-x86 in VirtualBox](https://www.android-x86.org/documentation/virtualbox.html)
@@ -302,3 +302,10 @@ _Align apk:_
 * [Android Asset Studio](https://romannurik.github.io/AndroidAssetStudio/index.html) - Roman Nurik
 * [Creating Icons Tutorial](http://web.archive.org/web/20250213185010/https://www.gimp.org/tutorials/Creating_Icons/) - GIMP
 * [Learn Android](https://www.tutorialspoint.com/android/android_overview.htm) - Tutorials Point
+
+
+[yt]: https://github.com/user-attachments/assets/f7366fe8-4ccc-4986-b303-2de3299c3436 "YouTube Video"
+[donut]: https://youtu.be/MBRFkLKRwFw
+[froyo]: https://youtu.be/yAZYSVr2Bhc
+[kitkat]: https://www.youtube.com/playlist?list=PLWz5rJ2EKKc94uxA00aHLx2gtNorLRgQD
+[lollipop]: https://youtu.be/Q8TXgCzxEnw
