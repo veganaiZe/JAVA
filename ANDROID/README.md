@@ -249,6 +249,9 @@ _*These include **XP-compatible** `android`, SDK Manager GUI, and no ~~`sdkmanag
 <details>
 <summary><b><i>⚙️ Apksigner...</i></b></summary>
 
+_Align apk:_
+
+    zipalign -v -p 4 compiled/signed.apk compiled/release.apk
 _Generate debug key:_
 
     keytool -genkey -v \
@@ -268,9 +271,6 @@ _Sign apk:_
         compiled/unsigned.apk
 
     apksigner verify compiled/signed.apk
-_Align apk:_
-
-    zipalign -v -p 4 compiled/signed.apk compiled/release.apk
 
 ---
 
