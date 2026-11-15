@@ -506,6 +506,8 @@
   - [_Features_](https://openjdk.org/projects/jdk/25/)
     - [_aot command-line ergonomics_](https://openjdk.org/jeps/514)
     - [_aot method profiling_](https://openjdk.org/jeps/515)
+    - [compact (simple) source files & instance main methods](https://openjdk.org/jeps/512) (_aka. implicit/unnamed classes_)
+    - [module import declarations](https://openjdk.org/jeps/511)
     - [_remove 32-bit x86 port_](https://openjdk.org/jeps/503)
     - [_scoped values_](https://openjdk.org/jeps/506)
     - [unicode 16](https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Character.html)
