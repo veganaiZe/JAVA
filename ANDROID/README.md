@@ -299,7 +299,9 @@ _Sign apk:_
 📎 Resources
 ------------
 
+* [Busy Coder's Guide](https://commonsware.com/Android/) - commonsware ([pdf](https://commonsware.com/Android/Android-FINAL.pdf))
 * [Learn Android](https://www.tutorialspoint.com/android/android_overview.htm) - Tutorials Point
+* [Learning Android](https://riptutorial.com/Download/android.pdf) - riptutorial, pdf
 * [Android Asset Studio](https://romannurik.github.io/AndroidAssetStudio/index.html) - Roman Nurik
 * [Creating Icons Tutorial](http://web.archive.org/web/20250213185010/https://www.gimp.org/tutorials/Creating_Icons/) - GIMP
 * Holo Design
