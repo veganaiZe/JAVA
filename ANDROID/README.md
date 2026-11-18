@@ -304,15 +304,18 @@ _Sign apk:_
 * [Learning Android](https://riptutorial.com/Download/android.pdf) - riptutorial, pdf
 * [Android Asset Studio](https://romannurik.github.io/AndroidAssetStudio/index.html) - Roman Nurik
 * [Creating Icons Tutorial](http://web.archive.org/web/20250213185010/https://www.gimp.org/tutorials/Creating_Icons/) - GIMP
-* Holo Design
-  - [Stencils, Icons, Colors, Fonts](https://github.com/aosp-mirror/platform_frameworks_base/blob/main/docs/downloads/design/Android_Design_Downloads_20120823.zip) - 2012, zip
-  - [Stencils, Icons, Colors](https://github.com/aosp-mirror/platform_frameworks_base/blob/main/docs/downloads/design/Android_Design_Downloads_20130814.zip) - 2013, zip
-* Material Design
-  - [Material Design 1](https://m1.material.io/)
-  - [Material Design 2](https://m2.material.io/)
-  - [Material Design 3](https://m3.material.io/)
-  - [Material Design Icons](https://github.com/google/material-design-icons) - github
-
+* Design
+    * Android 1.0-2.3
+      - [Icons Template Pack](https://minimum-viable-product.github.io/donut-docs/shareables/icon_templates-v1.0.zip) - zip
+    * Android 3.0-4.4 ("Holo")
+      - [Stencils, Icons, Colors, Fonts](https://github.com/aosp-mirror/platform_frameworks_base/blob/main/docs/downloads/design/Android_Design_Downloads_20120823.zip) - 2012, zip
+      - [Stencils, Icons, Colors](https://github.com/aosp-mirror/platform_frameworks_base/blob/main/docs/downloads/design/Android_Design_Downloads_20130814.zip) - 2013, zip
+    * Android 5.0+ ("Material")
+      - [Material Design 1](https://m1.material.io/)
+      - [Material Design 2](https://m2.material.io/)
+      - [Material Design 3](https://m3.material.io/)
+      - [Material Design Icons](https://github.com/google/material-design-icons) - github
+    
 
 [yt]: https://github.com/user-attachments/assets/f7366fe8-4ccc-4986-b303-2de3299c3436 "YouTube Video"
 [donut]: https://youtu.be/MBRFkLKRwFw
